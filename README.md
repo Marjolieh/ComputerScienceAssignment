@@ -21,15 +21,15 @@ The dataset used contains 1,624 television product descriptions from four differ
 The dataset originally contains 1,624 products. For 12 ModelIDs (26LV2500, 55LW5600, 40E210U, 65LW6500, LEDTV2326, KDL40EX500, PN64D8000F, PN64D7000F, 47LW5600, TC-P60ST30, 42LV3500), the same Web shop appears twice. One of those two observations is removed.
 
 # Each product entry includes:
-* Title: Product title.
-* FeaturesMap: Key-value attributes (e.g., "brand: Samsung").
-* Shop: Source web shop.
-* Url
+* Title: product title.
+* FeaturesMap: key-value attributes (e.g., "brand: Samsung").
+* Shop: source web shop.
+* Url: link to the Web page of the product
 
 # File Structure
-* main.py: The main script that runs the entire pipeline.
-* README.md: Documentation file.
-* TVs-all-merged.json: Dataset file ).
+* main.py: the main script that runs the entire pipeline.
+* README.md: documentation file.
+* TVs-all-merged.json: dataset file.
 
 # Code Explanation
 Key Functions
