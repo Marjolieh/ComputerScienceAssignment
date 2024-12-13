@@ -1,6 +1,6 @@
 # ComputerScienceAssignment
 
-Overview
+#Overview
 This project addresses the challenge of detecting duplicate products across different web shops. Using scalable techniques such as Locality Sensitive Hashing (LSH) and hierarchical clustering methods. The goal is to reduce the computational cost of product comparisons while maintaining high-quality duplicate detection.
 
 The provided code performs the following key tasks:
@@ -11,7 +11,7 @@ The provided code performs the following key tasks:
 * Evaluation of clustering results using metrics like F1-score, Pair Quality, and Pair Completeness.
 * Hyperparameter tuning and performance benchmarking.
 
-Dataset
+#Dataset
 The dataset used contains 1,624 television product descriptions from four different web shops:
 1. Amazon
 2. Newegg
@@ -26,12 +26,12 @@ Each product entry includes:
 * Shop: Source web shop.
 * Url
 
-File Structure
+#File Structure
 * main.py: The main script that runs the entire pipeline.
 * README.md: Documentation file.
 * TVs-all-merged.json: Dataset file ).
 
-Code Explanation
+#Code Explanation
 Key Functions
 1. upload_data(bestandspad):
     * Loads and restructures the dataset from JSON format.
@@ -51,13 +51,13 @@ Key Functions
 7. hyperparameter_tuning(...):
     * Finds the best parameters (alpha, beta, epsilon) for optimal clustering performance.
 
-Metrics and Evaluation
+#Metrics and Evaluation
 * F1 measure: Harmonic mean of Precision and Recall.
 * F1* measure: Harmonic mean of Pair Quality and Pair Completeness.
 * Pair Quality: Duplicates found / Total Comparisons.
 * Pair Completeness: Duplicates found / Total Duplicates.
 
-How to Run
+#How to Run
 1. Prepare Dataset
     * Download the dataset from the link above.
     * Place the TVs-all-merged.json file in the project directory.
