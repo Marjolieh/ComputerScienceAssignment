@@ -27,7 +27,7 @@ The dataset originally contains 1,624 products. For 12 ModelIDs (26LV2500, 55LW5
 * Url: link to the Web page of the product
 
 # File Structure
-* main.py: the main script that runs the entire pipeline.
+* Main.py: the main script that runs the entire pipeline.
 * README.md: documentation file.
 * TVs-all-merged.json: dataset file.
 
@@ -52,14 +52,14 @@ Key Functions
     * Finds the best parameters (alpha, beta, epsilon) for optimal clustering performance.
 
 # Metrics and Evaluation
-* F1 measure: Harmonic mean of Precision and Recall.
-* F1* measure: Harmonic mean of Pair Quality and Pair Completeness.
-* Pair Quality: Duplicates found / Total Comparisons.
-* Pair Completeness: Duplicates found / Total Duplicates.
+* F1 measure: harmonic mean of Precision and Recall.
+* F1* measure: harmonic mean of Pair Quality and Pair Completeness.
+* Pair Quality: duplicates found / total comparisons.
+* Pair Completeness: duplicates found / total duplicates.
 
 # How to Run
 1. Prepare Dataset
-    * Download the dataset from the link above.
+    * Download the dataset.
     * Place the TVs-all-merged.json file in the project directory.
 2. Run the Pipeline Execute the main script to process the dataset and evaluate performance: python main.py
 3. Results
